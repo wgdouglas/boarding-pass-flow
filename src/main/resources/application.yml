@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+crypto:
+  secret-key: ${CRYPTO_SECRET}
+
+sabre:
+  endpoint: ${SABRE_URL}
+  api-key: ${SABRE_API_KEY}
+
+
